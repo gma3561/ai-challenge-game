@@ -1,0 +1,222 @@
+{
+  "crawlInfo": {
+    "crawledAt": "2025-08-15T08:35:35.724Z",
+    "propertyCount": 3,
+    "maxProperties": 3,
+    "method": "improved-curl-based",
+    "description": "Improved curl-based crawling for 3 properties with images"
+  },
+  "properties": [
+    {
+      "id": "property_1755246923036_0",
+      "title": "평창동 뷰가 멋진 대지 232평 저택",
+      "lineNumber": 1453,
+      "detailUrl": "https://www.luxurynhouse.com/rms/luxurynhouse/selling/selling_detail.asp?h_idx=1109",
+      "imageUrl": "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_thum_0A3A4899.JPG",
+      "extractedAt": "2025-08-15T08:35:23.036Z",
+      "source": "main_page",
+      "price": "가격 정보 없음",
+      "location": "위치 정보 없음",
+      "propertyType": "부동산",
+      "condition": "거래 조건 정보 없음",
+      "detailTitle": "평창동 뷰가 멋진 대지 232평 저택 | 단독/단독주택",
+      "detailBody": "--> function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'ko', includedLanguages: 'en,ja,ko,th,vi,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false}, 'google_translate_element'); } $(document).ready(function(){ $(\"#search_text\").autocomplete({ source: function( request, response ) { $.ajax({ url: \"/rms/luxurynhouse/pp.asp\", data: { kind : \"KeywordSearch\" , search_text : $(\"#search_text\").val() }, dataType: \"json\", success: function( data ) { response( $.map( data.List, function( item ) { if (item.keywordNm.toLowerCase().indexOf($(\"#search_text\").val().toLowerCase()) >= 0){ return { label: item.keywordNm.toLowerCase().replace($(\"#search_text\").val().toLowerCase(),\" \" + $(\"#search_text\").val().toLowerCase() + \" \"), value: item.keywordNm } } })); } }); }, minLength: 1, select: function( event, ui ) {}, open: function() {$(this).removeClass( \"ui-corner-all\" ).addClass( \"ui-corner-top\" );}, close: function() {$( this ).removeClass( \"ui-corner-top\" ).addClass( \"ui-corner-all\" );}, error: function(xhr, ajaxOptions, thrownError){ alert(thrownError); alert(xhr.responseText);} }) .data('uiAutocomplete')._renderItem = function( ul, item ) { return $( \" \" ) .data( \"item.autocomplete\", item ) .append(\" \" + unescape(item.label) + \" \") //.append(unescape(item.label)) .appendTo( ul ); }; }); 한국어 영어 중국어(간체) 태국어 베트남어 --> 인재채용 럭셔리앤 : 분양/시행/컨설팅 럭셔리앤빌딩 럭셔리앤오피스 럭셔리앤인테리어 럭셔리앤재팬골프 방배점 청담점 한남점 연희점 성수점 성북평창점 잠실점 여의도점 목동점 분당판교점 동작점 로그인 회원가입 고객센터 멤버십안내 --> 추천물건 최근 본 물건 TOP var lnum=0; var snum=1; var recommend =new Swiper('.recommend_stuff', { paginationClickable: true, loop: true, //autoplay: 3500, autoplayDisableOnInteraction: false, /* pagination: '#recommend_pagination', */ nextButton: '.recommend-button-next', prevButton: '.recommend-button-prev', navigation : { // 네비게이션 설정 nextEl : '.recommend-button-next', // 다음 버튼 클래스명 prevEl : '.recommend-button-prev', // 이전 버튼 클래스명 }, /* pagination : { // 페이징 설정 el : '.rec",
+      "additionalImages": [
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_thum_[크기변환]KakaoTalk_20210820_151911214_02.jpg",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_GGGGFFFFFF00011.JPG",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/cp_wm_[크기변환]3[7].PNG",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/cp_wm_거실4[19].JPG",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/cp_wm_DSC01972.JPG"
+      ],
+      "forms": [
+        {
+          "action": "",
+          "method": "post"
+        },
+        {
+          "action": "",
+          "method": "post"
+        }
+      ],
+      "inputs": [
+        {
+          "type": "text",
+          "name": "search_text",
+          "placeholder": "매물명, 매물번호, 지역 검색"
+        },
+        {
+          "type": "text",
+          "name": "search_text",
+          "placeholder": "매물명, 매물번호, 지역 검색"
+        },
+        {
+          "type": "text",
+          "name": "c_tel1",
+          "placeholder": ""
+        },
+        {
+          "type": "text",
+          "name": "c_tel2",
+          "placeholder": ""
+        },
+        {
+          "type": "text",
+          "name": "c_tel3",
+          "placeholder": ""
+        }
+      ],
+      "downloadedImages": [
+        {
+          "type": "main",
+          "originalUrl": "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_thum_0A3A4899.JPG",
+          "localPath": "improved-curl-data/property_property_1755246923036_0_main.jpg"
+        },
+        {
+          "type": "additional_2",
+          "originalUrl": "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_GGGGFFFFFF00011.JPG",
+          "localPath": "improved-curl-data/property_property_1755246923036_0_additional_2.jpg"
+        }
+      ],
+      "imageCount": 2
+    },
+    {
+      "id": "property_1755246923036_1",
+      "title": "청담동 마크힐스 펜트하우스",
+      "lineNumber": 1470,
+      "detailUrl": "https://www.luxurynhouse.com/rms/luxurynhouse/selling/selling_detail.asp?h_idx=1178",
+      "imageUrl": "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_9900041[3].JPG",
+      "extractedAt": "2025-08-15T08:35:23.036Z",
+      "source": "main_page",
+      "price": "가격 정보 없음",
+      "location": "위치 정보 없음",
+      "propertyType": "부동산",
+      "condition": "거래 조건 정보 없음",
+      "detailTitle": "청담동 마크힐스 펜트하우스 | 연립/아파트 / 펜트하우스",
+      "detailBody": "--> function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'ko', includedLanguages: 'en,ja,ko,th,vi,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false}, 'google_translate_element'); } $(document).ready(function(){ $(\"#search_text\").autocomplete({ source: function( request, response ) { $.ajax({ url: \"/rms/luxurynhouse/pp.asp\", data: { kind : \"KeywordSearch\" , search_text : $(\"#search_text\").val() }, dataType: \"json\", success: function( data ) { response( $.map( data.List, function( item ) { if (item.keywordNm.toLowerCase().indexOf($(\"#search_text\").val().toLowerCase()) >= 0){ return { label: item.keywordNm.toLowerCase().replace($(\"#search_text\").val().toLowerCase(),\" \" + $(\"#search_text\").val().toLowerCase() + \" \"), value: item.keywordNm } } })); } }); }, minLength: 1, select: function( event, ui ) {}, open: function() {$(this).removeClass( \"ui-corner-all\" ).addClass( \"ui-corner-top\" );}, close: function() {$( this ).removeClass( \"ui-corner-top\" ).addClass( \"ui-corner-all\" );}, error: function(xhr, ajaxOptions, thrownError){ alert(thrownError); alert(xhr.responseText);} }) .data('uiAutocomplete')._renderItem = function( ul, item ) { return $( \" \" ) .data( \"item.autocomplete\", item ) .append(\" \" + unescape(item.label) + \" \") //.append(unescape(item.label)) .appendTo( ul ); }; }); 한국어 영어 중국어(간체) 태국어 베트남어 --> 인재채용 럭셔리앤 : 분양/시행/컨설팅 럭셔리앤빌딩 럭셔리앤오피스 럭셔리앤인테리어 럭셔리앤재팬골프 방배점 청담점 한남점 연희점 성수점 성북평창점 잠실점 여의도점 목동점 분당판교점 동작점 로그인 회원가입 고객센터 멤버십안내 --> 추천물건 최근 본 물건 TOP var lnum=0; var snum=1; var recommend =new Swiper('.recommend_stuff', { paginationClickable: true, loop: true, //autoplay: 3500, autoplayDisableOnInteraction: false, /* pagination: '#recommend_pagination', */ nextButton: '.recommend-button-next', prevButton: '.recommend-button-prev', navigation : { // 네비게이션 설정 nextEl : '.recommend-button-next', // 다음 버튼 클래스명 prevEl : '.recommend-button-prev', // 이전 버튼 클래스명 }, /* pagination : { // 페이징 설정 el : '.rec",
+      "additionalImages": [
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_thum_[크기변환]KakaoTalk_20210820_151911214_02.jpg",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_GGGGFFFFFF00011.JPG",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/cp_wm_[크기변환]3[7].PNG",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/cp_wm_거실4[19].JPG",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/cp_wm_DSC01972.JPG"
+      ],
+      "forms": [
+        {
+          "action": "",
+          "method": "post"
+        },
+        {
+          "action": "",
+          "method": "post"
+        }
+      ],
+      "inputs": [
+        {
+          "type": "text",
+          "name": "search_text",
+          "placeholder": "매물명, 매물번호, 지역 검색"
+        },
+        {
+          "type": "text",
+          "name": "search_text",
+          "placeholder": "매물명, 매물번호, 지역 검색"
+        },
+        {
+          "type": "text",
+          "name": "c_tel1",
+          "placeholder": ""
+        },
+        {
+          "type": "text",
+          "name": "c_tel2",
+          "placeholder": ""
+        },
+        {
+          "type": "text",
+          "name": "c_tel3",
+          "placeholder": ""
+        }
+      ],
+      "downloadedImages": [
+        {
+          "type": "additional_2",
+          "originalUrl": "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_GGGGFFFFFF00011.JPG",
+          "localPath": "improved-curl-data/property_property_1755246923036_1_additional_2.jpg"
+        }
+      ],
+      "imageCount": 1
+    },
+    {
+      "id": "property_1755246923036_2",
+      "title": "제주도 별장 반디힐 매매",
+      "lineNumber": 1487,
+      "detailUrl": "https://www.luxurynhouse.com/rms/luxurynhouse/selling/selling_detail.asp?h_idx=1123",
+      "imageUrl": "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_sfsfddsfs330A5042.jpg",
+      "extractedAt": "2025-08-15T08:35:23.037Z",
+      "source": "main_page",
+      "price": "가격 정보 없음",
+      "location": "위치 정보 없음",
+      "propertyType": "부동산",
+      "condition": "거래 조건 정보 없음",
+      "detailTitle": "제주도 별장 반디힐 매매 | 단독/별장",
+      "detailBody": "--> function googleTranslateElementInit() { new google.translate.TranslateElement({pageLanguage: 'ko', includedLanguages: 'en,ja,ko,th,vi,zh-CN', layout: google.translate.TranslateElement.InlineLayout.SIMPLE,autoDisplay: false}, 'google_translate_element'); } $(document).ready(function(){ $(\"#search_text\").autocomplete({ source: function( request, response ) { $.ajax({ url: \"/rms/luxurynhouse/pp.asp\", data: { kind : \"KeywordSearch\" , search_text : $(\"#search_text\").val() }, dataType: \"json\", success: function( data ) { response( $.map( data.List, function( item ) { if (item.keywordNm.toLowerCase().indexOf($(\"#search_text\").val().toLowerCase()) >= 0){ return { label: item.keywordNm.toLowerCase().replace($(\"#search_text\").val().toLowerCase(),\" \" + $(\"#search_text\").val().toLowerCase() + \" \"), value: item.keywordNm } } })); } }); }, minLength: 1, select: function( event, ui ) {}, open: function() {$(this).removeClass( \"ui-corner-all\" ).addClass( \"ui-corner-top\" );}, close: function() {$( this ).removeClass( \"ui-corner-top\" ).addClass( \"ui-corner-all\" );}, error: function(xhr, ajaxOptions, thrownError){ alert(thrownError); alert(xhr.responseText);} }) .data('uiAutocomplete')._renderItem = function( ul, item ) { return $( \" \" ) .data( \"item.autocomplete\", item ) .append(\" \" + unescape(item.label) + \" \") //.append(unescape(item.label)) .appendTo( ul ); }; }); 한국어 영어 중국어(간체) 태국어 베트남어 --> 인재채용 럭셔리앤 : 분양/시행/컨설팅 럭셔리앤빌딩 럭셔리앤오피스 럭셔리앤인테리어 럭셔리앤재팬골프 방배점 청담점 한남점 연희점 성수점 성북평창점 잠실점 여의도점 목동점 분당판교점 동작점 로그인 회원가입 고객센터 멤버십안내 --> 추천물건 최근 본 물건 TOP var lnum=0; var snum=1; var recommend =new Swiper('.recommend_stuff', { paginationClickable: true, loop: true, //autoplay: 3500, autoplayDisableOnInteraction: false, /* pagination: '#recommend_pagination', */ nextButton: '.recommend-button-next', prevButton: '.recommend-button-prev', navigation : { // 네비게이션 설정 nextEl : '.recommend-button-next', // 다음 버튼 클래스명 prevEl : '.recommend-button-prev', // 이전 버튼 클래스명 }, /* pagination : { // 페이징 설정 el : '.rec",
+      "additionalImages": [
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_thum_[크기변환]KakaoTalk_20210820_151911214_02.jpg",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_GGGGFFFFFF00011.JPG",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/cp_wm_[크기변환]3[7].PNG",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/cp_wm_거실4[19].JPG",
+        "https://www.luxurynhouse.com/rms/upload/salebook/salebook/cp_wm_DSC01972.JPG"
+      ],
+      "forms": [
+        {
+          "action": "",
+          "method": "post"
+        },
+        {
+          "action": "",
+          "method": "post"
+        }
+      ],
+      "inputs": [
+        {
+          "type": "text",
+          "name": "search_text",
+          "placeholder": "매물명, 매물번호, 지역 검색"
+        },
+        {
+          "type": "text",
+          "name": "search_text",
+          "placeholder": "매물명, 매물번호, 지역 검색"
+        },
+        {
+          "type": "text",
+          "name": "c_tel1",
+          "placeholder": ""
+        },
+        {
+          "type": "text",
+          "name": "c_tel2",
+          "placeholder": ""
+        },
+        {
+          "type": "text",
+          "name": "c_tel3",
+          "placeholder": ""
+        }
+      ],
+      "downloadedImages": [
+        {
+          "type": "main",
+          "originalUrl": "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_sfsfddsfs330A5042.jpg",
+          "localPath": "improved-curl-data/property_property_1755246923036_2_main.jpg"
+        },
+        {
+          "type": "additional_2",
+          "originalUrl": "https://www.luxurynhouse.com/rms/upload/salebook/salebook/wm_GGGGFFFFFF00011.JPG",
+          "localPath": "improved-curl-data/property_property_1755246923036_2_additional_2.jpg"
+        }
+      ],
+      "imageCount": 2
+    }
+  ]
+}

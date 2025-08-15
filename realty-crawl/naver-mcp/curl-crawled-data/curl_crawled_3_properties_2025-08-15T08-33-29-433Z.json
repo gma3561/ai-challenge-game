@@ -1,0 +1,10 @@
+{
+  "crawlInfo": {
+    "crawledAt": "2025-08-15T08:33:29.433Z",
+    "propertyCount": 0,
+    "maxProperties": 3,
+    "method": "curl-based",
+    "description": "Curl-based crawling for 3 properties with images"
+  },
+  "properties": []
+}

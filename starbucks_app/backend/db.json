@@ -1,0 +1,163 @@
+{
+  "menu": {
+    "categories": [
+      { "id": "coffee", "name": "커피" },
+      { "id": "tea", "name": "티" },
+      { "id": "frappuccino", "name": "프라푸치노" }
+    ],
+    "commonOptionGroups": {
+      "size": {
+        "id": "size",
+        "name": "사이즈",
+        "type": "single",
+        "required": true,
+        "options": [
+          { "id": "tall", "name": "Tall", "priceDelta": 0 },
+          { "id": "grande", "name": "Grande", "priceDelta": 500 },
+          { "id": "venti", "name": "Venti", "priceDelta": 1000 }
+        ]
+      },
+      "temperature": {
+        "id": "temperature",
+        "name": "온도",
+        "type": "single",
+        "required": true,
+        "options": [
+          { "id": "hot", "name": "Hot", "priceDelta": 0 },
+          { "id": "iced", "name": "Iced", "priceDelta": 0 }
+        ]
+      },
+      "shots": {
+        "id": "shots",
+        "name": "샷 추가",
+        "type": "counter",
+        "required": false,
+        "min": 0,
+        "max": 3,
+        "unitPriceDelta": 500
+      },
+      "milk": {
+        "id": "milk",
+        "name": "우유",
+        "type": "single",
+        "required": false,
+        "options": [
+          { "id": "regular", "name": "일반 우유", "priceDelta": 0 },
+          { "id": "lowfat", "name": "저지방 우유", "priceDelta": 0 },
+          { "id": "oat", "name": "오트", "priceDelta": 500 },
+          { "id": "soy", "name": "두유", "priceDelta": 500 }
+        ]
+      },
+      "syrup": {
+        "id": "syrup",
+        "name": "시럽",
+        "type": "single",
+        "required": false,
+        "options": [
+          { "id": "none", "name": "없음", "priceDelta": 0 },
+          { "id": "vanilla", "name": "바닐라", "priceDelta": 300 },
+          { "id": "caramel", "name": "카라멜", "priceDelta": 300 },
+          { "id": "hazelnut", "name": "헤이즐넛", "priceDelta": 300 }
+        ]
+      },
+      "ice": {
+        "id": "ice",
+        "name": "얼음",
+        "type": "single",
+        "required": false,
+        "visibleWhen": { "temperature": "iced" },
+        "options": [
+          { "id": "less", "name": "적게", "priceDelta": 0 },
+          { "id": "regular", "name": "보통", "priceDelta": 0 },
+          { "id": "extra", "name": "많이", "priceDelta": 0 }
+        ]
+      },
+      "sweetness": {
+        "id": "sweetness",
+        "name": "당도",
+        "type": "single",
+        "required": false,
+        "options": [
+          { "id": "0", "name": "0%", "priceDelta": 0 },
+          { "id": "50", "name": "50%", "priceDelta": 0 },
+          { "id": "100", "name": "100%", "priceDelta": 0 }
+        ]
+      }
+    },
+    "items": [
+      {
+        "id": "coffee_americano",
+        "categoryId": "coffee",
+        "name": "아메리카노",
+        "basePrice": 4500,
+        "badges": { "caffeine": true, "allergens": [] },
+        "optionGroupIds": ["size", "temperature", "shots", "syrup", "ice"]
+      },
+      {
+        "id": "coffee_latte",
+        "categoryId": "coffee",
+        "name": "카페 라떼",
+        "basePrice": 5500,
+        "badges": { "caffeine": true, "allergens": ["milk"] },
+        "optionGroupIds": ["size", "temperature", "shots", "milk", "syrup", "ice"]
+      },
+      {
+        "id": "coffee_mocha",
+        "categoryId": "coffee",
+        "name": "카페 모카",
+        "basePrice": 6000,
+        "badges": { "caffeine": true, "allergens": ["milk"] },
+        "optionGroupIds": ["size", "temperature", "shots", "milk", "syrup", "ice"]
+      },
+      {
+        "id": "tea_earl_grey",
+        "categoryId": "tea",
+        "name": "얼그레이",
+        "basePrice": 5000,
+        "badges": { "caffeine": true, "allergens": [] },
+        "optionGroupIds": ["size", "temperature", "sweetness", "ice"]
+      },
+      {
+        "id": "tea_chamomile",
+        "categoryId": "tea",
+        "name": "캐모마일",
+        "basePrice": 5000,
+        "badges": { "caffeine": false, "allergens": [] },
+        "optionGroupIds": ["size", "temperature", "sweetness", "ice"]
+      },
+      {
+        "id": "tea_green",
+        "categoryId": "tea",
+        "name": "녹차",
+        "basePrice": 5000,
+        "badges": { "caffeine": true, "allergens": [] },
+        "optionGroupIds": ["size", "temperature", "sweetness", "ice"]
+      },
+      {
+        "id": "frapu_java_chip",
+        "categoryId": "frappuccino",
+        "name": "자바칩 프라푸치노",
+        "basePrice": 6500,
+        "badges": { "caffeine": true, "allergens": ["milk"] },
+        "optionGroupIds": ["size", "shots", "milk", "sweetness", "ice"]
+      },
+      {
+        "id": "frapu_caramel",
+        "categoryId": "frappuccino",
+        "name": "카라멜 프라푸치노",
+        "basePrice": 6500,
+        "badges": { "caffeine": true, "allergens": ["milk"] },
+        "optionGroupIds": ["size", "shots", "milk", "sweetness", "ice"]
+      },
+      {
+        "id": "frapu_mocha",
+        "categoryId": "frappuccino",
+        "name": "모카 프라푸치노",
+        "basePrice": 6500,
+        "badges": { "caffeine": true, "allergens": ["milk"] },
+        "optionGroupIds": ["size", "shots", "milk", "sweetness", "ice"]
+      }
+    ]
+  },
+  "orders": []
+}

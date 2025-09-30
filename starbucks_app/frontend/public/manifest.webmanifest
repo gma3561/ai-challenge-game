@@ -1,0 +1,16 @@
+{
+  "name": "그린빈 커피",
+  "short_name": "GreenBean",
+  "description": "데모용 커피 주문 PWA",
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "lang": "ko-KR",
+  "theme_color": "#0a7e07",
+  "background_color": "#ffffff",
+  "icons": [
+    { "src": "/icons/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/icons/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}

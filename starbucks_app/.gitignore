@@ -1,0 +1,25 @@
+# Node & tooling
+node_modules/
+dist/
+build/
+.cache/
+.tmp/
+coverage/
+*.log
+
+# Editors/OS
+.DS_Store
+.idea/
+.vscode/
+
+# Env/config
+.env*
+
+# Package managers
+pnpm-lock.yaml
+yarn.lock
+package-lock.json
+
+# Platforms
+.vercel/
+.netlify/

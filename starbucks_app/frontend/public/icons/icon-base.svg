@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" fill="#0a7e07" rx="64" ry="64"/>
+  <circle cx="256" cy="256" r="180" fill="#ffffff"/>
+  <circle cx="256" cy="256" r="140" fill="#0a7e07"/>
+  <circle cx="256" cy="256" r="100" fill="#ffffff"/>
+  <path d="M196 166 L316 166 L340 206 L172 206 Z" fill="#6f4e37"/>
+  <path d="M182 226 L330 226 L350 266 L162 266 Z" fill="#6f4e37"/>
+  <path d="M170 286 L342 286 L362 326 L150 326 Z" fill="#6f4e37"/>
+  <text x="256" y="380" font-family="Arial" font-size="48" font-weight="bold" text-anchor="middle" fill="#0a7e07">GB</text>
+</svg>

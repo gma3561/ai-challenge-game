@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="600" fill="#ffffff"/>
+  
+  <!-- 메뉴판 배경 -->
+  <rect x="50" y="50" width="700" height="500" rx="10" ry="10" fill="#f9f7f4" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- 상단 제목 -->
+  <text x="400" y="90" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">춘식도락 주간 메뉴 (1월 13일 ~ 1월 17일)</text>
+  
+  <!-- 구분선 -->
+  <line x1="80" y1="110" x2="720" y2="110" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- 메뉴 코너 헤더 -->
+  <rect x="80" y="130" width="120" height="40" rx="5" ry="5" fill="#ffcccb"/>
+  <text x="140" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">한식A</text>
+  
+  <rect x="210" y="130" width="120" height="40" rx="5" ry="5" fill="#c2e0ff"/>
+  <text x="270" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">한식B</text>
+  
+  <rect x="340" y="130" width="120" height="40" rx="5" ry="5" fill="#d4ffcc"/>
+  <text x="400" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">양식</text>
+  
+  <rect x="470" y="130" width="120" height="40" rx="5" ry="5" fill="#e0ccff"/>
+  <text x="530" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">팝업A</text>
+  
+  <rect x="600" y="130" width="120" height="40" rx="5" ry="5" fill="#fff5cc"/>
+  <text x="660" y="155" font-family="Arial" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">팝업B</text>
+  
+  <!-- 요일 표시 -->
+  <text x="60" y="200" font-family="Arial" font-size="14" font-weight="bold" fill="#333">월요일</text>
+  <text x="60" y="280" font-family="Arial" font-size="14" font-weight="bold" fill="#333">화요일</text>
+  <text x="60" y="360" font-family="Arial" font-size="14" font-weight="bold" fill="#333">수요일</text>
+  <text x="60" y="440" font-family="Arial" font-size="14" font-weight="bold" fill="#333">목요일</text>
+  <text x="60" y="520" font-family="Arial" font-size="14" font-weight="bold" fill="#333">금요일</text>
+  
+  <!-- 월요일 메뉴 -->
+  <text x="140" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">안동찜닭</text>
+  <text x="140" y="210" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">713kcal</text>
+  
+  <text x="270" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">두부조림</text>
+  <text x="270" y="210" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">650kcal</text>
+  
+  <text x="400" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">수제남산왕돈까스</text>
+  <text x="400" y="210" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">950kcal</text>
+  
+  <text x="530" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">베트남쌀국수</text>
+  <text x="530" y="210" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">580kcal</text>
+  
+  <text x="660" y="190" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">돈코츠라멘</text>
+  <text x="660" y="210" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">845kcal</text>
+  
+  <!-- 화요일 메뉴 -->
+  <text x="140" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">김치찌개</text>
+  <text x="140" y="290" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">680kcal</text>
+  
+  <text x="270" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">호박볶음</text>
+  <text x="270" y="290" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">620kcal</text>
+  
+  <text x="400" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">베이컨필라프</text>
+  <text x="400" y="290" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">890kcal</text>
+  
+  <text x="530" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">덴가스떡볶이</text>
+  <text x="530" y="290" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">750kcal</text>
+  
+  <text x="660" y="270" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">전주비빔밥</text>
+  <text x="660" y="290" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">710kcal</text>
+  
+  <!-- 수요일 메뉴 -->
+  <text x="140" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">소불고기</text>
+  <text x="140" y="370" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">725kcal</text>
+  
+  <text x="270" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">멸치볶음</text>
+  <text x="270" y="370" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">610kcal</text>
+  
+  <text x="400" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">알프레도파스타</text>
+  <text x="400" y="370" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">920kcal</text>
+  
+  <text x="530" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">마라탕면</text>
+  <text x="530" y="370" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">800kcal</text>
+  
+  <text x="660" y="350" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">탄탄면</text>
+  <text x="660" y="370" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">760kcal</text>
+  
+  <!-- 목요일 메뉴 -->
+  <text x="140" y="430" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">된장찌개</text>
+  <text x="140" y="450" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">650kcal</text>
+  
+  <text x="270" y="430" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">시금치무침</text>
+  <text x="270" y="450" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">580kcal</text>
+  
+  <text x="400" y="430" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">치킨커틀릿</text>
+  <text x="400" y="450" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">870kcal</text>
+  
+  <text x="530" y="430" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">쌀국수</text>
+  <text x="530" y="450" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">600kcal</text>
+  
+  <text x="660" y="430" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">소고기쌀국수</text>
+  <text x="660" y="450" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">680kcal</text>
+  
+  <!-- 금요일 메뉴 -->
+  <text x="140" y="510" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">안동찜닭</text>
+  <text x="140" y="530" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">713kcal</text>
+  
+  <text x="270" y="510" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">고구마조림</text>
+  <text x="270" y="530" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">590kcal</text>
+  
+  <text x="400" y="510" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">햄버거스테이크</text>
+  <text x="400" y="530" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">850kcal</text>
+  
+  <text x="530" y="510" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">베트남볶음밥</text>
+  <text x="530" y="530" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">670kcal</text>
+  
+  <text x="660" y="510" font-family="Arial" font-size="12" text-anchor="middle" fill="#333">전주비빔밥</text>
+  <text x="660" y="530" font-family="Arial" font-size="10" text-anchor="middle" fill="#666">710kcal</text>
+  
+  <!-- 요일 구분선 -->
+  <line x1="80" y1="230" x2="720" y2="230" stroke="#eee" stroke-width="1"/>
+  <line x1="80" y1="310" x2="720" y2="310" stroke="#eee" stroke-width="1"/>
+  <line x1="80" y1="390" x2="720" y2="390" stroke="#eee" stroke-width="1"/>
+  <line x1="80" y1="470" x2="720" y2="470" stroke="#eee" stroke-width="1"/>
+  
+  <!-- 카테고리 구분선 -->
+  <line x1="200" y1="130" x2="200" y2="540" stroke="#eee" stroke-width="1"/>
+  <line x1="330" y1="130" x2="330" y2="540" stroke="#eee" stroke-width="1"/>
+  <line x1="460" y1="130" x2="460" y2="540" stroke="#eee" stroke-width="1"/>
+  <line x1="590" y1="130" x2="590" y2="540" stroke="#eee" stroke-width="1"/>
+</svg>

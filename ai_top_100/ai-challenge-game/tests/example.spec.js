@@ -4,7 +4,7 @@ const { test, expect } = require('@playwright/test');
 test('AI 챌린지 웹사이트 기능 테스트', async ({ page }) => {
   // 1. 홈페이지 로드
   await test.step('홈페이지 로드 및 기본 구성 확인', async () => {
-    await page.goto('https://gma3561.github.io/ai-challenge-game/');
+    await page.goto('/');
     
     // 타이틀 확인
     await expect(page).toHaveTitle(/AI 챌린지/);
@@ -173,7 +173,7 @@ test('AI 챌린지 웹사이트 기능 테스트', async ({ page }) => {
 test('AI 챌린지 웹사이트 문제점 탐지', async ({ page }) => {
   // 1. 이미지 로드 문제 테스트
   await test.step('이미지 로드 문제 탐지', async () => {
-    await page.goto('https://gma3561.github.io/ai-challenge-game/');
+    await page.goto('/');
     
     // 깨진 이미지 확인
     const brokenImages = await page.evaluate(() => {
@@ -197,7 +197,7 @@ test('AI 챌린지 웹사이트 문제점 탐지', async ({ page }) => {
     });
     
     // 홈페이지 로드
-    await page.goto('https://gma3561.github.io/ai-challenge-game/');
+    await page.goto('/');
     
     // 문제 목록 페이지 이동
     await page.locator('a:has-text("문제 둘러보기")').click();
@@ -211,7 +211,7 @@ test('AI 챌린지 웹사이트 문제점 탐지', async ({ page }) => {
   
   // 3. 접근성 문제 테스트
   await test.step('접근성 문제 탐지', async () => {
-    await page.goto('https://gma3561.github.io/ai-challenge-game/');
+    await page.goto('/');
     
     // 이미지에 대체 텍스트 없는 경우 확인
     const imagesWithoutAlt = await page.evaluate(() => {
@@ -257,7 +257,7 @@ test('AI 챌린지 웹사이트 문제점 탐지', async ({ page }) => {
   // 4. 네비게이션 문제 테스트
   await test.step('네비게이션 문제 탐지', async () => {
     // 브라우저 뒤로가기 테스트
-    await page.goto('https://gma3561.github.io/ai-challenge-game/');
+    await page.goto('/');
     
     // 문제 목록 페이지 이동
     await page.locator('a:has-text("문제 둘러보기")').click();

@@ -7,7 +7,7 @@ test('AI 챌린지 웹사이트 기능 테스트', async ({ page }) => {
     await page.goto('/');
     
     // 타이틀 확인
-    await expect(page).toHaveTitle(/AI 챌린지/);
+    await expect(page).toHaveTitle(/AI 챌린지 플랫폼/);
     
     // 헤더 존재 확인
     await expect(page.locator('h1:has-text("AI 챌린지")')).toBeVisible();

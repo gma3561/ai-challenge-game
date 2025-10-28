@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ai-challenge-game/static/css/main.e6c13ad2.css",
-    "main.js": "/ai-challenge-game/static/js/main.8bf51824.js",
+    "main.js": "/ai-challenge-game/static/js/main.3ba54359.js",
     "static/js/453.e17e5a66.chunk.js": "/ai-challenge-game/static/js/453.e17e5a66.chunk.js",
     "index.html": "/ai-challenge-game/index.html",
     "main.e6c13ad2.css.map": "/ai-challenge-game/static/css/main.e6c13ad2.css.map",
-    "main.8bf51824.js.map": "/ai-challenge-game/static/js/main.8bf51824.js.map",
+    "main.3ba54359.js.map": "/ai-challenge-game/static/js/main.3ba54359.js.map",
     "453.e17e5a66.chunk.js.map": "/ai-challenge-game/static/js/453.e17e5a66.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.8bf51824.js"
+    "static/js/main.3ba54359.js"
   ]
 }

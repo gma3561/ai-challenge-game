@@ -1,0 +1,23 @@
+# 환경 변수
+.env
+
+# 의존성
+node_modules/
+
+# 로그
+logs/
+*.log
+
+# 빌드 결과물
+dist/
+
+# 캐시
+.cache/
+.npm/
+
+# 테스트 커버리지 보고서
+coverage/
+
+# 운영체제 파일
+.DS_Store
+Thumbs.db
